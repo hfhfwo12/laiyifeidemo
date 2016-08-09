@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="100dp"
+android:layout_height="150dp"
+android:background="#fff">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:src="@drawable/detail_show_1"
+    android:scaleType="centerCrop"
+    android:layout_weight="1"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="香辣鸡翅250g"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¥ 32.78"
+        android:layout_gravity="center_vertical"
+        android:textSize="14sp"
+        android:padding="5dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¥ 22.78"
+            android:textSize="16sp"
+            android:textColor="#FF0000"
+            android:padding="5dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/guide_cart_on"/>
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>

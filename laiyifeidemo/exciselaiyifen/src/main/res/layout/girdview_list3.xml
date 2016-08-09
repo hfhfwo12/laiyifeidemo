@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="100dp"
+    android:layout_height="150dp"
+    android:background="#fff">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/detail_show_1"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="香辣鸡翅250g"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="#000"
+            android:textSize="18sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_lv1_text"
+                android:text=" ¥ 22.78"
+                android:textSize="18sp"
+                android:textColor="#FF0000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/home_lv1_text"
+                android:text="已售8064件"
+                android:textSize="14sp"
+                android:padding="3dp"
+                 />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/guide_cart_on"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
